@@ -20,7 +20,5 @@ router_example
 
 - 安装插件：npm install
 
-- 运行示例：npm run dev
+- 运行示例：npm run dev 
 
-
-![1.gif](https://github.com/fengshi123/blog/blob/master/assets/mvvm/1.gif?raw=true) 
