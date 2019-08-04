@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>前端路由</title>
+    <style>
+      body{
+        margin-top: 15px;
+        margin-left: 50px;
+      }
+      li{
+        text-decoration:underline;
+        cursor: pointer;
+        color: cornflowerblue;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+      .replace-btn {
+        cursor: pointer;
+        display: block;
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        background-color:cornflowerblue;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page"></div>
+    <ul class="btn-list">
+      <li data-url="/">/..</li>
+      <li data-url="/page1">page1</li>
+      <li data-url="/page2">page2</li>
+      <li data-url="1">前进</li>
+      <li data-url="-1">后退</li>
+    </ul>
+    <span class="replace-btn">路由替换</span>
+  </body>
+</html>
