@@ -2,7 +2,15 @@ router_example
 
 本实例通过简单实现 Hash 路由和 History 路由，效果图分别如下所示：
 
-![3.png](https://github.com/fengshi123/blog/blob/master/assets/mvvm/3.png?raw=true) 
+- Hash 路由：
+
+![1.png](https://github.com/fengshi123/router-example/blob/master/assets/1.gif?raw=true)   
+
+- History 路由：
+
+![1.png](https://github.com/fengshi123/router-example/blob/master/assets/2.gif?raw=true) 
+
+
 
 ## 构建步骤
 
